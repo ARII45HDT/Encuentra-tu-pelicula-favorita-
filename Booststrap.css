@@ -1,0 +1,131 @@
+label{
+    font-family: Arial, Helvetica, Sans-serif;
+    color: #A80834;
+    font-size: 20px;
+    font-white: bold;
+    text-align: center;
+    width : 50%;
+    height= 50px;
+}
+input{
+    width : 50%;
+    height= 50px;
+    background-color: #A80834;
+    color: white;
+    padding: 10px 30px;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    font: bold 150px, Arial;
+}
+.footer {
+  grid-area: left;
+  background-color: #A80834;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+thead{
+  grid-area: left;
+  background-color: #A80834;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+.encabezado img{
+    width : 35%;
+    height= 35px;
+    margin: 5px 5px;
+    border: 15px;
+    border-radius: 25px;
+}
+ <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+        div,header,section,article,fotter{
+            display: block;
+            }
+            body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            }
+            .agrupar{
+                width= 96%;
+                margin: 15px auto;
+            }
+            .encabezado{
+                display: block;
+                 width= 500px;
+                 background-color: #A80834;
+                 font: bold 1px;
+                 height= 350px, Arial;
+                 color: white;
+             }
+             .encabezado img{
+                width= 400px;
+                height= 400px;
+                 text-align: center;
+                 font: bold 150px, Arial;
+             }
+             .menu{
+                 background-color: #87002F;
+                  width: 100%;
+                  height: 50px;
+                  text-align: left;
+                  font: bold 150px, Arial;
+             }
+             .menu li{
+                 display: inline-block;
+                 font: bold 150px, Arial;
+                 color:white;
+                 padding: 15px;
+                 list-style: center;
+             }
+             .menu li a{
+                  color: white;
+                  list-style:none;
+
+             }
+             .cont_seccion{
+                    display: block;
+                      width: 100%;
+                      background-color: #87002F;
+                     color: white;
+                     text-align: center;
+                     font: bold 150px, Arial;
+             }
+             .cont_seccion section{
+                    display: block;
+                    background-color: #87002F;
+                     color: white;
+                     text-align: center;
+                     font: bold 150px, Arial;
+             }
+             .contenedor article{
+                   display: block;
+                    background-color: #87002F;
+                     color: white;
+                     text-align: center;
+                     font: bold 200px, Arial;
+                     width: 100%;
+                     height: 70px;
+
+             }
+             .contenedor article img{
+                width: 50px;
+                height: 50px;
+                 background-color: #87002F;
+
+             }
+             .pie{
+                background-color: #87002F;
+                width: 100%;
+                height: 50px;
+                color: white;
+             }
+    </style>

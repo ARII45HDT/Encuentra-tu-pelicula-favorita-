@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Booststrap de peliculas">
+    <meta name="author" content="Angelica Valeria Acosta Reyes y Mariam Hernandez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./static/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./static/css/styles_form.css" type="text/css">
+    <title>Editar</title>
+</head>
+<body>
+<form action="/editar_pelicula/{{pelicula.0}}" method="POST">
+            <div>
+                <label for="peliculas">peliculas:</label>
+                <input type="text" name="peliculas" id="peliculas" value="{{pelicula.1}}">
+            </div>
+            <div>
+                <label for="categorias">categorias:</label>
+                <textarea id="categorias" name="categorias">{{pelicula.2}}</textarea>
+            </div>
+            <div>
+                <input type="submit" name="Actualizar" value="Actualizar">
+            </div>
+</form>
+
+</body>
+</html>

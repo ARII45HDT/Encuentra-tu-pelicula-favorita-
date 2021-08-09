@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Booststrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/Booststrap.css" type="text/css">
+    <title>PELICULAS!!</title>
+</head>
+<body>
+<div class="agrupar">
+        <div class="encabezado">
+
+            <header>
+                <h1>¡Busca tu Pelicula Favorita!!!</h1>
+                <img src="./static/images/pelis.jpg">
+                <img src="./static/images/images.jpg">
+            </header>
+            </div>
+            </div>
+
+<h2>BUSCAR</h2>
+
+ <form action="{{url_for('guardar_producto')}}" method="POST">
+  <label for="fname">peliculas</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">categorias:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
